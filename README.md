@@ -25,7 +25,7 @@ This project delivers a full-cycle business analytics solution for **RappiPlus**
 ```
 rappiplus-analysis/
 │
-├── 📓 S12_Estudiante_Proyecto_Final.ipynb   ← Full Python + SQL analysis
+├── 📓 RappiPlus_Analytics_Portfolio.ipynb   ← Full Python + SQL analysis
 ├── 📊 Proyecto_final_Armando.pbix           ← Power BI executive dashboard
 └── 📄 README.md
 ```
@@ -198,14 +198,14 @@ Profit YTD         = TOTALYTD([Profit Total], dates[Date])
 
 **Option A — Google Colab (Recommended)**
 1. Open [Google Colab](https://colab.research.google.com/)
-2. Upload `S12_Estudiante_Proyecto_Final.ipynb`
+2. Upload `RappiPlus_Analytics_Portfolio.ipynb`
 3. Run cells sequentially — CSV files are loaded directly from hosted URLs
 4. For SQL steps, a valid database connection is required
 
 **Option B — Local Jupyter**
 ```bash
 pip install pandas numpy matplotlib seaborn scipy statsmodels sqlalchemy psycopg2 jupyter
-jupyter notebook S12_Estudiante_Proyecto_Final.ipynb
+jupyter notebook RappiPlus_Analytics_Portfolio.ipynb
 ```
 
 ### Power BI Dashboard
